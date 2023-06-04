@@ -1,0 +1,54 @@
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\WPF 8 Practos MVVM.csproj.AssemblyReference.cache
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\WPF 8 Practos MVVM.csproj.SuggestedBindingRedirects.cache
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\App.g.cs
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\WPF 8 Practos MVVM_MarkupCompile.cache
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\WPF 8 Practos MVVM_MarkupCompile.lref
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\WPF 8 Practos MVVM.exe.config
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\WPF 8 Practos MVVM.exe
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\WPF 8 Practos MVVM.pdb
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\MaterialDesignColors.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\App.baml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\WPF 8 Practos MVVM.g.resources
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\WPF_8_Practos_MVVM.Properties.Resources.resources
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\WPF 8 Practos MVVM.csproj.GenerateResource.cache
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\WPF 8 Practos MVVM.csproj.CoreCompileInputs.cache
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\WPF 8 Practos MVVM.csproj.CopyComplete
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\WPF 8 Practos MVVM.exe
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\WPF 8 Practos MVVM.pdb
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\View\AdminWindow.g.cs
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\View\AdminWindow.baml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.Toolkit.Mvvm.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.Buffers.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.Memory.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.Toolkit.Mvvm.pdb
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.Toolkit.Mvvm.xml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.Buffers.xml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.Memory.xml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\View\BuyerWindow.g.cs
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\View\BuyerWindow.baml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\View\MainWindow.g.cs
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\obj\Debug\View\MainWindow.baml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\Максим\source\repos\WPF 8 Practos MVVM\WPF 8 Practos MVVM\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml

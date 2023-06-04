@@ -1,0 +1,91 @@
+﻿<Window x:Class="WPF_8_Practos_MVVM.BuyerWindow"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_8_Practos_MVVM"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Меню покупателя" Height="500" Width="810">
+
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
+        <TabControl x:Name="Tab_Control" Grid.RowSpan="2" Grid.ColumnSpan="2">
+
+            <TabItem x:Name="Order" Header="Заказ">
+
+                <TabItem.Content>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock VerticalAlignment="Center" Text="---->" FontSize="18" Margin="10" Grid.Row="0" Grid.Column="1"/>
+                        <TextBlock Text="Все изделия" FontWeight="Bold" FontSize="18" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <StackPanel Grid.Column="2" VerticalAlignment="Center">
+                            <TextBlock Text="Все товары в чеке. Полная цена:" FontWeight="Bold" FontSize="18" Margin="10" HorizontalAlignment="Center"/>
+                            <TextBlock FontWeight="Bold" FontSize="18"  HorizontalAlignment="Center" Text="{Binding Price, StringFormat='{}{0:C}'}"/>
+
+                        </StackPanel>
+
+                        <DataGrid SelectionMode="Single" SelectedItem="{Binding SelectedFabric}" ItemsSource="{Binding FirstDataGridItems}" x:Name="AllFabrics_DataGrid" Grid.Row="1" Margin="7,0,0,0" IsReadOnly="True" AutoGenerateColumns="False">
+
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="SelectedCellsChanged">
+                                    <i:InvokeCommandAction Command="{Binding AddItemCommand}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Название" Binding="{Binding Name}"/>
+                                <DataGridTextColumn Header="Размер" Binding="{Binding Size}"/>
+                                <DataGridTextColumn Header="Количество" Binding="{Binding Amount}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+
+                        <DataGrid ItemsSource="{Binding SecondDataGridItems}" SelectionMode="Single" SelectedItem="{Binding SelectedFabric2}" x:Name="Fabrics_InCheck_DataGrid" Grid.Row="1" Grid.Column="2" Margin="0,0,7,0" IsReadOnly="True" AutoGenerateColumns="False" >
+
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="SelectedCellsChanged">
+                                    <i:InvokeCommandAction Command="{Binding DeleteItemCommand}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Название" Binding="{Binding Name}"/>
+                                <DataGridTextColumn Header="Размер" Binding="{Binding Size}"/>
+                                <DataGridTextColumn Header="Цена" Binding="{Binding Cost}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <TextBox Text="{Binding Paid}" Grid.ColumnSpan="3" x:Name="Input_Cost" materialDesign:HintAssist.Hint="   Сумма для оплаты" Grid.Row="2" Height="25"/>
+                        <Button Grid.Row="1" Grid.Column="1" VerticalAlignment="Bottom" Margin="3" Content="Default"  Cursor="Hand" Click="Button_Click"/>
+                        <Button Content="Закрыть и выгрузить чек" Grid.Row="3" Grid.ColumnSpan="3" Command="{Binding WriteCheckCommand}"/>
+                    </Grid>
+                </TabItem.Content>
+            </TabItem>
+
+
+        </TabControl>
+
+    </Grid>
+</Window>
